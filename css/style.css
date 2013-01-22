@@ -22,10 +22,11 @@ body {background:#030303 url(../images/tickets-bg.png) repeat-x}
 .tickets-pay {position:relative; margin:-2px -6px 0 -6px; padding:22px 6px 23px 6px; background:url(../images/tickets-pay.png) repeat-x}
 .tickets-pay-inner {width:100%; position:relative}
 .tickets-pay-inner:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
-.tickets-btn {float:left; height:40px; white-space:nowrap; padding:0 20px; text-decoration:none; color:#fff; font-weight:bold; font-size:16px; line-height:40px; position:relative; text-shadow:0 1px 0 rgba(0, 0, 0, .5); background:url(../images/tickets-btn.png); border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius:5px; -webkit-box-shadow:0 1px 1px rgba(0, 0, 0, .75); -moz-box-shadow:0 1px 1px rgba(0, 0, 0, .75); box-shadow:0 1px 1px rgba(0, 0, 0, .75); behavior:url(./js/PIE.htc)}
-.tickets-btn:hover {background-position:left -40px}
-.tickets-btn:active {background-position:left -80px}
-.tickets-pay-icons {float:left; line-height:40px; padding:0 0 0 30px; width:710px}
+.tickets-btn  {float:left; position:relative}
+.tickets-btn input {height:40px; overflow:visible; vertical-align:top; margin:0; outline:none; cursor:pointer; padding:0 20px; color:#fff; font:bold 16px/40px helvetica, arial, sans-serif; position:relative; text-shadow:0 1px 0 rgba(0, 0, 0, .5); background:url(../images/tickets-btn.png); border:none; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius:5px; -webkit-box-shadow:0 1px 1px rgba(0, 0, 0, .75); -moz-box-shadow:0 1px 1px rgba(0, 0, 0, .75); box-shadow:0 1px 1px rgba(0, 0, 0, .75); behavior:url(./js/PIE.htc)}
+.tickets-btn input:hover {background-position:left -40px}
+.tickets-btn input:active {background-position:left -80px}
+.tickets-pay-icons {float:left; line-height:40px; padding:0 0 0 30px; width:700px}
 .tickets-pay-icons img {vertical-align:middle; margin:0 14px 0 0}
 
 .tickets-block-event {width:100%}
