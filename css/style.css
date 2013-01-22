@@ -1,0 +1,523 @@
+body {background:#030303 url(../images/tickets-bg.png) repeat-x}
+
+.tickets-container {position:relative; padding:0; overflow:visible; background:url(../images/fBlock.jpg); border-radius:8px; -moz-border-radius:8px; -webkit-border-radius:8px; -khtml-border-radius:8px; behavior:url(./js/PIE.htc)}
+.tickets-container a {outline:none}
+.tickets-container form {margin:0; padding:0}
+.tickets-content {position:relative; padding:10px 20px 0 20px; background:url(../images/blockGradient.png) repeat-x; border-radius:8px 8px 0 0; -moz-border-radius:8px 8px 0 0; -webkit-border-radius:8px 8px 0 0; -khtml-border-radius:8px 8px 0 0; behavior:url(./js/PIE.htc)}
+.tickets-content h2.white {position:relative; margin-bottom:13px}
+.tickets-content h2.white a {position:absolute; right:0; top:0; font-size:13px; color:#becee1 !important}
+
+.tickets-block {position:relative; padding:0 0 30px 0}
+.tickets-block-title {position:relative; margin:0 -9px 0 -9px; padding:0 0 0 11px; color:#fff; height:39px; font-size:18px; line-height:39px; background:#738ca9; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius:5px; behavior:url(./js/PIE.htc)}
+.tickets-block-info {padding:16px 0 0 10px}
+.tickets-block-info-row {width:100%; padding:9px 0 0 0}
+.tickets-block-info-row:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
+.tickets-block-info-name {float:left; width:140px; color:#becee1; font-size:12px; line-height:14px; padding:2px 0 0 0}
+.tickets-block-info-name-places {padding-top:20px}
+.tickets-block-info-value {float:left; width:770px; color:#fff; font-size:14px; line-height:16px; position:relative}
+.tickets-block-info-places {position:relative; margin:0 0 0 -10px; padding:9px 0 0 0}
+.tickets-block-info-place {float:left; width:130px; height:38px; margin:0 10px 8px 0; font-size:14px; line-height:38px; color:#becee1; padding:0 0 0 38px; background:url(../images/tickets-block-info-place.png)}
+.tickets-block-info-place strong {color:#fff}
+
+.tickets-pay {position:relative; margin:-2px -6px 0 -6px; padding:22px 6px 23px 6px; background:url(../images/tickets-pay.png) repeat-x}
+.tickets-pay-inner {width:100%; position:relative}
+.tickets-pay-inner:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
+.tickets-btn {float:left; height:40px; white-space:nowrap; padding:0 20px; text-decoration:none; color:#fff; font-weight:bold; font-size:16px; line-height:40px; position:relative; text-shadow:0 1px 0 rgba(0, 0, 0, .5); background:url(../images/tickets-btn.png); border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius:5px; -webkit-box-shadow:0 1px 1px rgba(0, 0, 0, .75); -moz-box-shadow:0 1px 1px rgba(0, 0, 0, .75); box-shadow:0 1px 1px rgba(0, 0, 0, .75); behavior:url(./js/PIE.htc)}
+.tickets-btn:hover {background-position:left -40px}
+.tickets-btn:active {background-position:left -80px}
+.tickets-pay-icons {float:left; line-height:40px; padding:0 0 0 30px; width:710px}
+.tickets-pay-icons img {vertical-align:middle; margin:0 14px 0 0}
+
+.tickets-block-event {width:100%}
+.tickets-block-event:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
+.tickets-block-event-photo {float:left; line-height:0; width:120px; position:relative; overflow:hidden; padding:20px 0 0 0}
+.tickets-block-event .tickets-block-info {float:left; width:770px; padding:7px 0 0 30px}
+.tickets-block-event .tickets-block-info-value {width:630px}
+
+.tickets-list {position:relative; margin:0 -9px 0 -9px}
+.tickets-item {width:100%; background:url(../images/tickets-pay.png) repeat-x left bottom; position:relative; padding:10px 0 12px 0}
+.tickets-item:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
+.tickets-item-name {float:left; width:130px; padding:11px 0 0 20px; color:#becee1; font-size:12px; line-height:14px}
+.tickets-item-sector {float:left; width:700px; font-size:14px; line-height:16px; color:#fff; padding:8px 0 6px 0}
+.tickets-item-value {float:left; position:relative; width:700px; margin-left:-9px}
+.tickets-item-value .tickets-block-info-place {margin-bottom:0}
+.tickets-print {float:left; height:38px; white-space:nowrap; padding:0 10px; text-decoration:none; color:#fff; font-weight:bold; font-size:16px; line-height:38px; position:relative; text-shadow:0 1px 0 rgba(0, 0, 0, .5); background:url(../images/tickets-print.png); border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius:5px; -webkit-box-shadow:0 1px 1px rgba(0, 0, 0, .75); -moz-box-shadow:0 1px 1px rgba(0, 0, 0, .75); box-shadow:0 1px 1px rgba(0, 0, 0, .75); behavior:url(./js/PIE.htc)}
+.tickets-print:hover {background-position:left -38px}
+.tickets-print:active {background-position:left -76px}
+
+.tickets-map {position:relative; line-height:0; padding:20px 0 0 0}
+.tickets-map-text {padding:17px 0 0 12px; width:700px; font-size:13px; line-height:16px; color:#becee1; margin-bottom:-6px}
+.tickets-map-text strong {color:#fff}
+.tickets-map-text p {margin:0; padding:0 0 5px 0}
+
+.tickets-rules {padding:17px 0 0 12px; width:705px; font-size:13px; line-height:16px; color:#becee1}
+.tickets-rules strong {color:#fff}
+.tickets-rules p {margin:0; padding:0 0 5px 0}
+.tickets-rules ol {margin:0; padding:0; list-style:none; counter-reset:point}
+.tickets-rules ol li {margin:0; padding:0 0 5px 0}
+.tickets-rules ol li:before {content:counter(point)'. '; counter-increment:point 1}
+.tickets-rules ul {margin:0; padding:0; list-style:none}
+.tickets-rules ul li {margin:0; padding:0 0 5px 10px; background:url(../images/tickets-rules-li.png) no-repeat 3px 8px}
+
+.tickets-steps {position:relative; height:61px; padding:4px 0 0 0}
+.tickets-steps-inner {position:relative; height:61px}
+.tickets-steps-fixed .tickets-steps-inner {position:fixed; left:0; top:0; height:34px; width:100%; background:url(../images/fBlock.jpg); z-index:8; -webkit-box-shadow:0 5px 5px rgba(0, 0, 0, .75); -moz-box-shadow:0 5px 5px rgba(0, 0, 0, .75); box-shadow:0 5px 5px rgba(0, 0, 0, .75); behavior:url(./js/PIE.htc)}
+.tickets-steps-container {width:920px; margin:0 auto; height:34px}
+.tickets-steps-container ul {width:100%; margin:0; padding:0; list-style:none}
+.tickets-steps-container ul:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
+.tickets-steps-container ul li {float:left; position:relative; margin:0 -15px 0 0; padding:0; z-index:4}
+.tickets-steps-container ul li.active {cursor:pointer}
+.tickets-steps-container ul li+li {z-index:3}
+.tickets-steps-container ul li+li+li {z-index:2}
+.tickets-steps-container ul li+li+li+li {z-index:1}
+.tickets-steps-container ul li span {float:left; height:34px; width:13px; background:url(../images/tickets-step.png) no-repeat left -34px}
+.tickets-steps-container ul li.active span {background-position:left -136px}
+.tickets-steps-container ul li small {float:left; height:34px; width:13px; background:url(../images/tickets-step.png) no-repeat left -68px}
+.tickets-steps-container ul li.active small {background-position:left -170px}
+.tickets-steps-container ul li strong {font-weight:normal; float:left; height:34px; background:url(../images/tickets-step.png); color:#dfe8f2; font-size:12px; line-height:32px; padding:0 5px 0 10px}
+.tickets-steps-container ul li.active strong {background-position:left -102px; color:#385679}
+.tickets-steps-container ul li:first-child strong {padding-left:0}
+.tickets-steps-container ul li strong em {float:left; font-style:normal; font-size:19px; font-weight:bold; padding:0 7px 0 0}
+
+.ticket-form-next {padding:12px 0 40px 0; position:relative; background:url(../images/tickets-pay.png) repeat-x}
+.ticket-form-next a {display:block; width:112px; height:37px; background:url(../images/tickets-next-btn.png); text-align:center; text-decoration:none; color:#c3d8ea; font-size:14px; line-height:36px; text-shadow:0 1px 0 rgba(0, 0, 0, .5)}
+.ticket-form-next a:hover {background-position:left -37px}
+.ticket-form-next a:active {background-position:left -74px}
+
+.tickets-block-inputs {padding:21px 0 0 0; margin-bottom:-22px}
+.tickets-block-input-row {width:100%; padding:0 0 11px 0}
+.tickets-block-input-row:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
+.tickets-block-input-name {float:left; width:140px; font-size:12px; line-height:16px; color:#becee1; padding:8px 0 0 10px}
+.tickets-block-input {float:left; width:450px; position:relative}
+.tickets-block-input input {width:428px; height:28px; vertical-align:top; position:relative; padding:0 10px; border-width:1px; border-style:solid; border-color:#070707 #343434 #595959 #343434; background:#3a3a3a; color:#fff; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius:5px; behavior:url(./js/PIE.htc)}
+
+#tickets-1,
+#tickets-2,
+#tickets-3 {display:none}
+
+#tickets-2 {margin-top:19px}
+
+.tickets-form-sector {width:100%; padding:18px 0 0 0}
+.tickets-form-sector:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
+.tickets-form-sector-inner {float:left; width:721px; height:383px; position:relative; background:url(../images/tickets-sector.png)}
+.tickets-form-sector-legend {float:right; width:170px}
+.tickets-form-sector-legend-title {font-size:14px; line-height:14px; color:#becee1; padding:0 0 14px 0}
+.tickets-form-sector-legend-item {width:100%; padding:0 0 10px 0}
+.tickets-form-sector-legend-item:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
+.tickets-form-sector-legend-color {float:left; width:30px; position:relative}
+.tickets-form-sector-legend-color div {width:20px; height:20px; position:relative; border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px; -khtml-border-radius:2px; behavior:url(./js/PIE.htc)}
+.tickets-sector-color-1 {background:#12bcae}
+.tickets-sector-color-2 {background:#9ea826}
+.tickets-sector-color-3 {background:#eebf26}
+.tickets-sector-color-4 {background:#e4652b}
+.tickets-sector-color-5 {background:#ee8a9e}
+.tickets-sector-color-6 {background:#aea6d0}
+.tickets-place-color-1 {background:#5b5b5b}
+.tickets-place-color-2 {background:#5096bd}
+.tickets-place-color-3 {background:#b7c238}
+.tickets-form-sector-legend-price {float:left; font-size:12px; line-height:20px; color:#becee1}
+.tickets-form-sector-legend-price strong {font-size:14px; color:#fefefe}
+
+.tickets-scheme-top {position:absolute; z-index:10; left:0; top:0}
+.tickets-sector {position:absolute; z-index:1}
+.tickets-sector.hover {z-index:2}
+.tickets-sector-hint {display:none; width:218px; height:86px; position:absolute; left:50%; margin-left:-109px; top:-66px; background:url(../images/tickets-sector-hint.png)}
+.tickets-sector.hover .tickets-sector-hint {display:block}
+.tickets-sector.disabled .tickets-sector-hint {display:none !important}
+.tickets-sector-hint-title {color:#2c2c2c; font-size:12px; line-height:14px; padding:11px 0 0 16px}
+.tickets-sector-hint-info {width:100%; padding:11px 0 0 0}
+.tickets-sector-hint-info:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
+.tickets-sector-hint-price {float:left; padding:0 0 0 16px; width:65px}
+.tickets-sector-hint-places {float:left; width:68px}
+.tickets-sector-hint-free {float:left; width:65px}
+.tickets-sector-hint-name {font-size:11px; line-height:13px; color:#8d8d8d; padding:0 0 1px 0}
+.tickets-sector-hint-value {font-size:14px; line-height:16px; color:#060606}
+.tickets-sector-hint-value span {font-size:10px}
+
+.tickets-sector-00 {width:199px; height:67px; left:260px; top:294px; background:url(../images/tickets-sector-00.png)}
+
+.tickets-sector-01 {width:34px; height:59px; left:35px; top:202px; background:url(../images/tickets-sector-01.png)}
+.tickets-sector-01.hover,
+.tickets-sector-01.active {background-position:left -59px}
+.tickets-sector-01.disabled {background-position:left -118px !important}
+
+.tickets-sector-02 {width:36px; height:39px; left:40px; top:176px; background:url(../images/tickets-sector-02.png)}
+.tickets-sector-02.hover,
+.tickets-sector-02.active {background-position:left -39px}
+.tickets-sector-02.disabled {background-position:left -78px !important}
+
+.tickets-sector-03 {width:33px; height:47px; left:47px; top:141px; background:url(../images/tickets-sector-03.png)}
+.tickets-sector-03.hover,
+.tickets-sector-03.active {background-position:left -47px}
+.tickets-sector-03.disabled {background-position:left -94px !important}
+
+.tickets-sector-04 {width:39px; height:49px; left:52px; top:114px; background:url(../images/tickets-sector-04.png)}
+.tickets-sector-04.hover,
+.tickets-sector-04.active {background-position:left -49px}
+.tickets-sector-04.disabled {background-position:left -98px !important}
+
+.tickets-sector-05 {width:34px; height:44px; left:72px; top:88px; background:url(../images/tickets-sector-05.png)}
+.tickets-sector-05.hover,
+.tickets-sector-05.active {background-position:left -44px}
+.tickets-sector-05.disabled {background-position:left -88px !important}
+
+.tickets-sector-06 {width:43px; height:40px; left:77px; top:66px; background:url(../images/tickets-sector-06.png)}
+.tickets-sector-06.hover,
+.tickets-sector-06.active {background-position:left -40px}
+.tickets-sector-06.disabled {background-position:left -80px !important}
+
+.tickets-sector-07 {width:55px; height:41px; left:91px; top:41px; background:url(../images/tickets-sector-07.png)}
+.tickets-sector-07.hover,
+.tickets-sector-07.active {background-position:left -41px}
+.tickets-sector-07.disabled {background-position:left -82px !important}
+
+.tickets-sector-08 {width:45px; height:48px; left:136px; top:20px; background:url(../images/tickets-sector-08.png)}
+.tickets-sector-08.hover,
+.tickets-sector-08.active {background-position:left -48px}
+.tickets-sector-08.disabled {background-position:left -96px !important}
+
+.tickets-sector-09 {width:47px; height:33px; left:179px; top:20px; background:url(../images/tickets-sector-09.png)}
+.tickets-sector-09.hover,
+.tickets-sector-09.active {background-position:left -33px}
+.tickets-sector-09.disabled {background-position:left -66px !important}
+
+.tickets-sector-10 {width:43px; height:33px; left:228px; top:20px; background:url(../images/tickets-sector-10.png)}
+.tickets-sector-10.hover,
+.tickets-sector-10.active {background-position:left -33px}
+.tickets-sector-10.disabled {background-position:left -66px !important}
+
+.tickets-sector-11 {width:43px; height:33px; left:273px; top:20px; background:url(../images/tickets-sector-11.png)}
+.tickets-sector-11.hover,
+.tickets-sector-11.active {background-position:left -33px}
+.tickets-sector-11.disabled {background-position:left -66px !important}
+
+.tickets-sector-12 {width:43px; height:33px; left:318px; top:20px; background:url(../images/tickets-sector-12.png)}
+.tickets-sector-12.hover,
+.tickets-sector-12.active {background-position:left -33px}
+.tickets-sector-12.disabled {background-position:left -66px !important}
+
+.tickets-sector-13 {width:43px; height:33px; left:363px; top:20px; background:url(../images/tickets-sector-13.png)}
+.tickets-sector-13.hover,
+.tickets-sector-13.active {background-position:left -33px}
+.tickets-sector-13.disabled {background-position:left -66px !important}
+
+.tickets-sector-14 {width:43px; height:33px; left:408px; top:20px; background:url(../images/tickets-sector-14.png)}
+.tickets-sector-14.hover,
+.tickets-sector-14.active {background-position:left -33px}
+.tickets-sector-14.disabled {background-position:left -66px !important}
+
+.tickets-sector-15 {width:43px; height:33px; left:453px; top:20px; background:url(../images/tickets-sector-15.png)}
+.tickets-sector-15.hover,
+.tickets-sector-15.active {background-position:left -33px}
+.tickets-sector-15.disabled {background-position:left -66px !important}
+
+.tickets-sector-16 {width:47px; height:33px; left:498px; top:20px; background:url(../images/tickets-sector-16.png)}
+.tickets-sector-16.hover,
+.tickets-sector-16.active {background-position:left -33px}
+.tickets-sector-16.disabled {background-position:left -66px !important}
+
+.tickets-sector-17 {width:46px; height:49px; left:543px; top:20px; background:url(../images/tickets-sector-17.png)}
+.tickets-sector-17.hover,
+.tickets-sector-17.active {background-position:left -49px}
+.tickets-sector-17.disabled {background-position:left -98px !important}
+
+.tickets-sector-18 {width:56px; height:40px; left:578px; top:41px; background:url(../images/tickets-sector-18.png)}
+.tickets-sector-18.hover,
+.tickets-sector-18.active {background-position:left -40px}
+.tickets-sector-18.disabled {background-position:left -80px !important}
+
+.tickets-sector-19 {width:43px; height:39px; left:604px; top:66px; background:url(../images/tickets-sector-19.png)}
+.tickets-sector-19.hover,
+.tickets-sector-19.active {background-position:left -39px}
+.tickets-sector-19.disabled {background-position:left -78px !important}
+
+.tickets-sector-20 {width:35px; height:43px; left:618px; top:88px; background:url(../images/tickets-sector-20.png)}
+.tickets-sector-20.hover,
+.tickets-sector-20.active {background-position:left -43px}
+.tickets-sector-20.disabled {background-position:left -86px !important}
+
+.tickets-sector-21 {width:40px; height:49px; left:633px; top:114px; background:url(../images/tickets-sector-21.png)}
+.tickets-sector-21.hover,
+.tickets-sector-21.active {background-position:left -49px}
+.tickets-sector-21.disabled {background-position:left -98px !important}
+
+.tickets-sector-22 {width:34px; height:47px; left:644px; top:141px; background:url(../images/tickets-sector-22.png)}
+.tickets-sector-22.hover,
+.tickets-sector-22.active {background-position:left -47px}
+.tickets-sector-22.disabled {background-position:left -94px !important}
+
+.tickets-sector-23 {width:35px; height:37px; left:650px; top:176px; background:url(../images/tickets-sector-23.png)}
+.tickets-sector-23.hover,
+.tickets-sector-23.active {background-position:left -37px}
+.tickets-sector-23.disabled {background-position:left -74px !important}
+
+.tickets-sector-24 {width:35px; height:59px; left:655px; top:202px; background:url(../images/tickets-sector-24.png)}
+.tickets-sector-24.hover,
+.tickets-sector-24.active {background-position:left -59px}
+.tickets-sector-24.disabled {background-position:left -118px !important}
+
+.tickets-sector-25 {width:48px; height:45px; left:71px; top:216px; background:url(../images/tickets-sector-25.png)}
+.tickets-sector-25.hover,
+.tickets-sector-25.active {background-position:left -45px}
+.tickets-sector-25.disabled {background-position:left -90px !important}
+
+.tickets-sector-26 {width:48px; height:46px; left:71px; top:190px; background:url(../images/tickets-sector-26.png)}
+.tickets-sector-26.hover,
+.tickets-sector-26.active {background-position:left -46px}
+.tickets-sector-26.disabled {background-position:left -92px !important}
+
+.tickets-sector-27 {width:42px; height:45px; left:77px; top:165px; background:url(../images/tickets-sector-27.png)}
+.tickets-sector-27.hover,
+.tickets-sector-27.active {background-position:left -45px}
+.tickets-sector-27.disabled {background-position:left -90px !important}
+
+.tickets-sector-28 {width:36px; height:47px; left:83px; top:134px; background:url(../images/tickets-sector-28.png)}
+.tickets-sector-28.hover,
+.tickets-sector-28.active {background-position:left -47px}
+.tickets-sector-28.disabled {background-position:left -94px !important}
+
+.tickets-sector-29 {width:87px; height:96px; left:94px; top:55px; background:url(../images/tickets-sector-29.png)}
+.tickets-sector-29.hover,
+.tickets-sector-29.active {background-position:left -96px}
+.tickets-sector-29.disabled {background-position:left -192px !important}
+
+.tickets-sector-30 {width:43px; height:45px; left:183px; top:55px; background:url(../images/tickets-sector-30.png)}
+.tickets-sector-30.hover,
+.tickets-sector-30.active {background-position:left -45px}
+.tickets-sector-30.disabled {background-position:left -90px !important}
+
+.tickets-sector-31 {width:43px; height:45px; left:228px; top:55px; background:url(../images/tickets-sector-31.png)}
+.tickets-sector-31.hover,
+.tickets-sector-31.active {background-position:left -45px}
+.tickets-sector-31.disabled {background-position:left -90px !important}
+
+.tickets-sector-32 {width:43px; height:45px; left:273px; top:55px; background:url(../images/tickets-sector-32.png)}
+.tickets-sector-32.hover,
+.tickets-sector-32.active {background-position:left -45px}
+.tickets-sector-32.disabled {background-position:left -90px !important}
+
+.tickets-sector-33 {width:18px; height:45px; left:318px; top:55px; background:url(../images/tickets-sector-33.png)}
+.tickets-sector-33.hover,
+.tickets-sector-33.active {background-position:left -45px}
+.tickets-sector-33.disabled {background-position:left -90px !important}
+
+.tickets-sector-34 {width:48px; height:22px; left:338px; top:55px; background:url(../images/tickets-sector-34.png)}
+.tickets-sector-34.hover,
+.tickets-sector-34.active {background-position:left -22px}
+.tickets-sector-34.disabled {background-position:left -44px !important}
+
+.tickets-sector-35 {width:48px; height:21px; left:338px; top:79px; background:url(../images/tickets-sector-35.png)}
+.tickets-sector-35.hover,
+.tickets-sector-35.active {background-position:left -21px}
+.tickets-sector-35.disabled {background-position:left -42px !important}
+
+.tickets-sector-36 {width:18px; height:45px; left:388px; top:55px; background:url(../images/tickets-sector-36.png)}
+.tickets-sector-36.hover,
+.tickets-sector-36.active {background-position:left -45px}
+.tickets-sector-36.disabled {background-position:left -90px !important}
+
+.tickets-sector-37 {width:43px; height:45px; left:408px; top:55px; background:url(../images/tickets-sector-37.png)}
+.tickets-sector-37.hover,
+.tickets-sector-37.active {background-position:left -45px}
+.tickets-sector-37.disabled {background-position:left -90px !important}
+
+.tickets-sector-38 {width:43px; height:45px; left:453px; top:55px; background:url(../images/tickets-sector-38.png)}
+.tickets-sector-38.hover,
+.tickets-sector-38.active {background-position:left -45px}
+.tickets-sector-38.disabled {background-position:left -90px !important}
+
+.tickets-sector-39 {width:43px; height:45px; left:498px; top:55px; background:url(../images/tickets-sector-39.png)}
+.tickets-sector-39.hover,
+.tickets-sector-39.active {background-position:left -45px}
+.tickets-sector-39.disabled {background-position:left -90px !important}
+
+.tickets-sector-40 {width:88px; height:96px; left:543px; top:55px; background:url(../images/tickets-sector-40.png)}
+.tickets-sector-40.hover,
+.tickets-sector-40.active {background-position:left -96px}
+.tickets-sector-40.disabled {background-position:left -192px !important}
+
+.tickets-sector-41 {width:37px; height:48px; left:605px; top:134px; background:url(../images/tickets-sector-41.png)}
+.tickets-sector-41.hover,
+.tickets-sector-41.active {background-position:left -48px}
+.tickets-sector-41.disabled {background-position:left -96px !important}
+
+.tickets-sector-42 {width:43px; height:46px; left:605px; top:165px; background:url(../images/tickets-sector-42.png)}
+.tickets-sector-42.hover,
+.tickets-sector-42.active {background-position:left -46px}
+.tickets-sector-42.disabled {background-position:left -92px !important}
+
+.tickets-sector-43 {width:49px; height:47px; left:605px; top:190px; background:url(../images/tickets-sector-43.png)}
+.tickets-sector-43.hover,
+.tickets-sector-43.active {background-position:left -47px}
+.tickets-sector-43.disabled {background-position:left -94px !important}
+
+.tickets-sector-44 {width:48px; height:45px; left:605px; top:216px; background:url(../images/tickets-sector-44.png)}
+.tickets-sector-44.hover,
+.tickets-sector-44.active {background-position:left -45px}
+.tickets-sector-44.disabled {background-position:left -90px !important}
+
+.tickets-sector-45 {width:44px; height:21px; left:121px; top:281px; background:url(../images/tickets-sector-45.png)}
+.tickets-sector-45.hover,
+.tickets-sector-45.active {background-position:left -21px}
+.tickets-sector-45.disabled {background-position:left -42px !important}
+
+.tickets-sector-46 {width:44px; height:21px; left:121px; top:258px; background:url(../images/tickets-sector-46.png)}
+.tickets-sector-46.hover,
+.tickets-sector-46.active {background-position:left -21px}
+.tickets-sector-46.disabled {background-position:left -42px !important}
+
+.tickets-sector-47 {width:44px; height:21px; left:121px; top:235px; background:url(../images/tickets-sector-47.png)}
+.tickets-sector-47.hover,
+.tickets-sector-47.active {background-position:left -21px}
+.tickets-sector-47.disabled {background-position:left -42px !important}
+
+.tickets-sector-48 {width:44px; height:21px; left:121px; top:212px; background:url(../images/tickets-sector-48.png)}
+.tickets-sector-48.hover,
+.tickets-sector-48.active {background-position:left -21px}
+.tickets-sector-48.disabled {background-position:left -42px !important}
+
+.tickets-sector-49 {width:44px; height:27px; left:121px; top:183px; background:url(../images/tickets-sector-49.png)}
+.tickets-sector-49.hover,
+.tickets-sector-49.active {background-position:left -27px}
+.tickets-sector-49.disabled {background-position:left -54px !important}
+
+.tickets-sector-50 {width:44px; height:34px; left:121px; top:154px; background:url(../images/tickets-sector-50.png)}
+.tickets-sector-50.hover,
+.tickets-sector-50.active {background-position:left -34px}
+.tickets-sector-50.disabled {background-position:left -68px !important}
+
+.tickets-sector-51 {width:60px; height:66px; left:121px; top:102px; background:url(../images/tickets-sector-51.png)}
+.tickets-sector-51.hover,
+.tickets-sector-51.active {background-position:left -66px}
+.tickets-sector-51.disabled {background-position:left -132px !important}
+
+.tickets-sector-52 {width:43px; height:27px; left:183px; top:102px; background:url(../images/tickets-sector-52.png)}
+.tickets-sector-52.hover,
+.tickets-sector-52.active {background-position:left -27px}
+.tickets-sector-52.disabled {background-position:left -54px !important}
+
+.tickets-sector-53 {width:43px; height:27px; left:228px; top:102px; background:url(../images/tickets-sector-53.png)}
+.tickets-sector-53.hover,
+.tickets-sector-53.active {background-position:left -27px}
+.tickets-sector-53.disabled {background-position:left -54px !important}
+
+.tickets-sector-54 {width:43px; height:27px; left:273px; top:102px; background:url(../images/tickets-sector-54.png)}
+.tickets-sector-54.hover,
+.tickets-sector-54.active {background-position:left -27px}
+.tickets-sector-54.disabled {background-position:left -54px !important}
+
+.tickets-sector-55 {width:43px; height:27px; left:318px; top:102px; background:url(../images/tickets-sector-55.png)}
+.tickets-sector-55.hover,
+.tickets-sector-55.active {background-position:left -27px}
+.tickets-sector-55.disabled {background-position:left -54px !important}
+
+.tickets-sector-56 {width:43px; height:27px; left:363px; top:102px; background:url(../images/tickets-sector-56.png)}
+.tickets-sector-56.hover,
+.tickets-sector-56.active {background-position:left -27px}
+.tickets-sector-56.disabled {background-position:left -54px !important}
+
+.tickets-sector-57 {width:43px; height:27px; left:408px; top:102px; background:url(../images/tickets-sector-57.png)}
+.tickets-sector-57.hover,
+.tickets-sector-57.active {background-position:left -27px}
+.tickets-sector-57.disabled {background-position:left -54px !important}
+
+.tickets-sector-58 {width:43px; height:27px; left:453px; top:102px; background:url(../images/tickets-sector-58.png)}
+.tickets-sector-58.hover,
+.tickets-sector-58.active {background-position:left -27px}
+.tickets-sector-58.disabled {background-position:left -54px !important}
+
+.tickets-sector-59 {width:43px; height:27px; left:498px; top:102px; background:url(../images/tickets-sector-59.png)}
+.tickets-sector-59.hover,
+.tickets-sector-59.active {background-position:left -27px}
+.tickets-sector-59.disabled {background-position:left -54px !important}
+
+.tickets-sector-60 {width:60px; height:66px; left:543px; top:102px; background:url(../images/tickets-sector-60.png)}
+.tickets-sector-60.hover,
+.tickets-sector-60.active {background-position:left -66px}
+.tickets-sector-60.disabled {background-position:left -132px !important}
+
+.tickets-sector-61 {width:44px; height:34px; left:559px; top:154px; background:url(../images/tickets-sector-61.png)}
+.tickets-sector-61.hover,
+.tickets-sector-61.active {background-position:left -34px}
+.tickets-sector-61.disabled {background-position:left -68px !important}
+
+.tickets-sector-62 {width:44px; height:27px; left:559px; top:183px; background:url(../images/tickets-sector-62.png)}
+.tickets-sector-62.hover,
+.tickets-sector-62.active {background-position:left -27px}
+.tickets-sector-62.disabled {background-position:left -54px !important}
+
+.tickets-sector-63 {width:44px; height:21px; left:559px; top:212px; background:url(../images/tickets-sector-63.png)}
+.tickets-sector-63.hover,
+.tickets-sector-63.active {background-position:left -21px}
+.tickets-sector-63.disabled {background-position:left -42px !important}
+
+.tickets-sector-64 {width:44px; height:21px; left:559px; top:235px; background:url(../images/tickets-sector-64.png)}
+.tickets-sector-64.hover,
+.tickets-sector-64.active {background-position:left -21px}
+.tickets-sector-64.disabled {background-position:left -42px !important}
+
+.tickets-sector-65 {width:44px; height:21px; left:559px; top:258px; background:url(../images/tickets-sector-65.png)}
+.tickets-sector-65.hover,
+.tickets-sector-65.active {background-position:left -21px}
+.tickets-sector-65.disabled {background-position:left -42px !important}
+
+.tickets-sector-66 {width:44px; height:21px; left:559px; top:281px; background:url(../images/tickets-sector-66.png)}
+.tickets-sector-66.hover,
+.tickets-sector-66.active {background-position:left -21px}
+.tickets-sector-66.disabled {background-position:left -42px !important}
+
+.tickets-sector-67 {width:192px; height:49px; left:168px; top:170px; background:url(../images/tickets-sector-67.png)}
+.tickets-sector-67.hover,
+.tickets-sector-67.active {background-position:left -49px}
+.tickets-sector-67.disabled {background-position:left -98px !important}
+
+.tickets-sector-68 {width:194px; height:49px; left:362px; top:170px; background:url(../images/tickets-sector-68.png)}
+.tickets-sector-68.hover,
+.tickets-sector-68.active {background-position:left -49px}
+.tickets-sector-68.disabled {background-position:left -98px !important}
+
+.tickets-sector-69 {width:388px; height:71px; left:168px; top:221px; background:url(../images/tickets-sector-69.png)}
+.tickets-sector-69.hover,
+.tickets-sector-69.active {background-position:left -71px}
+.tickets-sector-69.disabled {background-position:left -142px !important}
+
+.tickets-sector-70 {width:199px; height:38px; left:260px; top:254px; background:url(../images/tickets-sector-70.png)}
+.tickets-sector-70.hover,
+.tickets-sector-70.active {background-position:left -38px}
+.tickets-sector-70.disabled {background-position:left -76px !important}
+
+.tickets-place-sector {font-size:14px; color:#becee1; line-height:16px; padding:17px 0 0 0}
+.tickets-place-sector span {font-size:12px}
+.tickets-place-sector strong {color:#fff}
+
+.tickets-place-container {width:100%; padding:18px 0 0 0}
+.tickets-place-container:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
+.tickets-place-content {float:left; width:720px; background:#3a3a3a; border-top:1px solid #111; border-bottom:1px solid #595959}
+.tickets-place-inner {position:relative; padding:30px 0 26px 0}
+.tickets-place-row {width:100%; padding:0 0 2px 0}
+.tickets-place-row:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
+.tickets-place-row div {float:left; width:35px; padding:0 5px 0 0; text-align:right; color:#838383; font-size:8px; line-height:11px}
+.tickets-place-row.hover div {color:#fff}
+.tickets-place-row span {float:left; width:11px; height:11px; margin:0 2px 0 0; background:#5b5b5b}
+.tickets-place-row a {float:left; width:11px; height:11px; margin:0 2px 0 0; background:#5096bd; outline:none}
+.tickets-place-row a:hover {background:#72bdda}
+.tickets-place-row a.active {background:#b7c238 !important}
+.tickets-place-cols {width:100%; font-size:8px; line-height:11px; text-align:center; color:#838383}
+.tickets-place-cols:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
+.tickets-place-cols div {float:left; width:35px; padding:0 5px 0 0}
+.tickets-place-cols span {float:left; width:11px; padding:0 2px 0 0}
+.tickets-place-cols span.hover {color:#fff}
+
+.tickets-places {width:100%; padding:20px 0 9px 0}
+.tickets-places:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
+.tickets-places-item {float:left; width:160px; height:38px; position:relative; background:url(../images/tickets-places-item.png); margin:0 10px 10px 0; font-size:14px; line-height:38px; color:#becee1; padding:0 0 0 38px}
+.tickets-places-item strong {color:#fff}
+.tickets-places-item a {display:block; position:absolute; right:9px; top:12px; width:15px; height:14px; background:url(../images/tickets-place-item-del.png)}
+
+.tickets-cost {background:url(../images/tickets-pay.png) repeat-x; font-size:14px; line-height:16px; padding:14px 0 10px 10px}
+.tickets-cost span {color:#fff}
+
+.ticket-form-submit {padding:22px 0 0 0; position:relative; background:url(../images/tickets-pay.png) repeat-x}
+.ticket-form-submit input {display:block; width:112px; height:37px; background:url(../images/tickets-next-btn.png); cursor:pointer; border:none; vertical-align:top; text-align:center; text-decoration:none; color:#c3d8ea; font:14px/30px arial, helvetica, sans-serif; text-shadow:0 1px 0 rgba(0, 0, 0, .5); padding:0 0 2px 0; margin:0}
+.ticket-form-submit input:hover {background-position:left -37px}
+.ticket-form-submit input:active {background-position:left -74px}
